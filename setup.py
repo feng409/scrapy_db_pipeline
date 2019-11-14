@@ -1,10 +1,12 @@
 from setuptools import setup
 
+
 setup(
     name='scrapy_db_pipeline',
     version='1.0',
     description='persist item to the database table',
-    long_description=open('readme.md').read(),
+    long_description=open('readme.rst').read(),
+    long_description_content_type='text/markdown',
     keywords='scrapy pipeline',
     license='MIT License',
     author="chemf",
